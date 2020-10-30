@@ -1,0 +1,220 @@
+@media only screen and (max-width:900px){
+  .container {
+    width: 100%;
+  }
+  .col_3{
+    width: 49%;
+    margin: 0.5%;
+  }
+  .top_menu{
+    padding-top: 40px;
+  }
+  .hamburger_menu{
+    display: block;
+  }
+  .main_menu{
+    position: fixed;
+    top: 40px;
+    /*transform: translateY(-350px);*/
+    transform: translatex(100%);
+    transition: 0.5s;
+    height: 100%;
+  }
+  .change .container{
+    overflow: auto;
+  }
+  .change .main_menu{
+    transform: translate(0,0);
+  }
+  .main_menu ul li{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .main_menu ul li a{
+    display: inline-block;
+  }
+  .dropdown ul li{
+    padding: 0;
+  }
+  .dropdown {
+    background: #772953;
+    box-shadow: initial;
+  }
+  .dropdown ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+  .dropdown .dropdown ul li a{
+    /*position: initial;*/
+    /*background: red;*/
+    padding-left: 40px;
+  }
+  .dropdown .dropdown .dropdown ul li a{
+    padding-left: 60px;
+  }
+  .main_menu ul li:hover > .dropdown{
+    left: 0;
+    position: initial;
+  }
+  .slider_area .slider_text{
+    /*height: 90px;*/
+    width: 55%;
+    /*margin: 0 auto;*/
+    opacity: 0.8;
+  }
+  .work{
+    margin-top: 30px;
+  }
+  .title:after,
+  .title:before{
+    width: 35%;
+  }
+  .testimonial_area .title:after,
+  .testimonial_area .title:before{
+    width: 27%;
+  }
+  .testimonial_image{
+    width: 40%;
+    float: none;
+    margin: 0 auto;
+    /*background: red;*/
+  }
+  .testimonial_text a{
+    float: right;
+  }
+  .testimonial_text.second a{
+    float: none;
+  }
+  .testimonial_text{
+    width: 100%;  .
+    padding: 0 10px;
+    float: none;
+  }
+  .ad_area .ad_text{
+    float: none;
+    width: 74%;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+  }
+  .ad_area .ad_btn{
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+    float: none;
+  }
+}
+@media only screen and (max-width:420px){
+/*=======================================
+        global styles
+============================≠========≠=*/
+  .col_2{
+    width: 100%;
+    /*background: green;*/
+    float: none;
+    overflow: hidden;
+  }
+  .col_3{
+    width: 100%;
+    /*background: red;*/
+    float: none;
+    overflow: hidden;
+  }
+  .col_4{
+    width: 100%;
+    /*background: yellow;*/
+    float: none;
+  }
+  .testimonial_text a{
+    float: right;
+  }
+  .testimonial_text.second a{
+    float: none;
+  }
+  
+/*=======================================
+        global styles
+============================≠========≠=*/
+  .top_menu ul{
+    padding: 10px 0px 0px;
+  }
+  .top_menu .social_area ul {
+    width: 75%;
+    float: none;
+    /*background: red;*/
+    margin: 0 auto;
+  }
+  .top_menu .mini_menu ul{
+    float: none;
+  }
+  .top_menu .mini_menu ul li a:hover{
+    /*color: #6A3144;*/
+    transform: scale(1);
+  }
+  #ojana{
+    float: none;
+    margin: 0 auto;
+  }
+  .logo_area{
+    padding: 5px 10px;
+  }
+
+.search_area form{
+  width: 90%;
+  float: none;
+  margin: 8px auto;
+}
+
+/*=======================================
+        global styles
+============================≠========≠=*/
+
+  .slider_area .slider_text{
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .slider_text h2{
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .slider_text p{
+    font-size: 10px;
+  }
+  .slider_area .imag img{
+    height: 200px;
+    width: 100%;
+    border: 10px solid red;
+  }
+  .title:after,
+  .title:before{
+    width: 23%;
+  }
+  .testimonial_area .title:after,
+  .testimonial_area .title:before{
+    width: 25%;
+  }
+  .testimonial_text.second{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .ad_area .ad_text{
+    width: 100%;
+  }
+  .ad_area .ad_btn{
+    width: 100%;
+  }
+  .footer_contents .col_4{
+    margin-top: 20px;
+  }
+  .left_text{
+    float: none;
+  }
+  .right_text{
+    float: none;
+  }
+}
+
